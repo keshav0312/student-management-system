@@ -5,14 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8cc246f-0e2d-4ef4-ab86-3d7e548066ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SRS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/util/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/docs/SRS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/docs/TDD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/dao/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SRS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/TDD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/dao/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/student/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudentDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keshav/student/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keshav/student/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/student/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keshav/student/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/student/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student Management/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student Management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/SRS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/src/main/java/com/student/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/src/main/java/com/student/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student Management/src/main/java/com/student/util/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student Management/src/main/java/com/student/util/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/student/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/student/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/student/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/student/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/student/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/student/util/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/student/util/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +52,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -43,12 +70,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.student.ui.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in student_management (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in student_management (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in student_management.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Zaalima Developement Projects/Student Management/src/test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,7 +93,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Zaalima Developement Projects\Student Management\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Zaalima Developement Projects\Student Management\docs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in student_management (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.keshav.student.ui.Main" />
       <module name="student_management" />
@@ -75,8 +118,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.student.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.student.ui.Main" />
+      <module name="student_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.student.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in student_management (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in student_management (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in student_management" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in student_management (2)" />
+        <item itemvalue="JUnit.All in student_management (1)" />
+        <item itemvalue="JUnit.All in student_management" />
+        <item itemvalue="Application.com.student.ui.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -100,6 +184,11 @@
       <workItem from="1762172014122" duration="54000" />
       <workItem from="1762172464514" duration="1953000" />
       <workItem from="1762184937856" duration="1165000" />
+      <workItem from="1762186193291" duration="7189000" />
+      <workItem from="1762250028932" duration="4904000" />
+      <workItem from="1762270897685" duration="11765000" />
+      <workItem from="1762409062970" duration="7672000" />
+      <workItem from="1762529902413" duration="334000" />
     </task>
     <servers />
   </component>
@@ -109,11 +198,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/student/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/target/classes/com/keshav/student/ui/Main.class</url>
           <line>9</line>
